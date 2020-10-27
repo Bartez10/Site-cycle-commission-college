@@ -1,0 +1,160 @@
+    .sequel-kidsa {
+  height: 70px;
+ font-family: Alice;
+background:#d79f00;
+width: 100%;
+}
+
+.mplishmen {
+  float: left;
+  text-transform: uppercase;
+  font-size: 1.4em;
+}
+.mplishmen a img {
+  max-height: 100px;
+  margin-top: 1px;
+}
+.mplishmen a,
+.mplishmen a:visited {
+  color: #fbfbfb;
+  text-decoration: none;
+}
+
+.sequel-masopedub {
+  width: 100%;
+  margin: 0 auto;
+}
+.col_men{
+}
+nav {
+  float: right;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav ul li {
+  background:#d79f00;
+  float: left;
+  position: relative;
+
+}
+nav ul li a, nav ul li a:visited {
+  display: block;
+  padding: 0 18px;
+  line-height: 70px;
+ color: #f7eded;
+  text-decoration: none;
+}
+nav ul li a:hover, nav ul li a:visited:hover {
+  background: #1b8ea7;
+  color: #efefef;
+  text-decoration: none;
+}
+nav ul li a:not(:only-child):after,
+nav ul li a:visited:not(:only-child):after {
+  padding-left: 4px;
+  content: ' ▾';
+}
+nav ul li ul li {
+  min-width: 233px;
+}
+nav ul li ul li a {
+  padding: 15px;
+  line-height: 21px;
+}
+
+.sequel-dropdown {
+  position: absolute;
+  display: none;
+  z-index: 1;
+  box-shadow: 0 3px 12px rgba(16, 16, 16, 0.15);
+}
+.sequel-benmuekes {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 70px;
+  width: 70px;
+}
+
+@media only screen and (max-width: 1050px) {
+  .sequel-benmuekes {
+  display: block;
+  }
+
+  nav {
+  width: 100%;
+  padding: 0 0 15px;
+  }
+  nav ul {
+  display: none;
+  }
+  nav ul li {
+  float: none;
+  }
+  nav ul li a {
+  padding: 15px;
+  line-height: 20px;
+  padding-left: 25%;
+   
+  }
+  nav ul li ul li a {
+  padding-left: 30%;
+  }
+
+  .sequel-dropdown {
+  position: static;
+  background: linear-gradient(129deg, rgba(0,10,112,1) 0%, rgba(27,77,240,1) 60%, rgba(63,176,255,1) 100%);
+  
+  }
+  .mplishmen a img {
+  max-height: 70px;
+  margin-left:10px;
+  }
+}
+@media screen and (min-width: 1051px) {
+  .sequel-lasotedun {
+  display: block !important;
+  }
+}
+#gedunean-giversaryd {
+  position: absolute;
+  left: 18px;
+  top: 22px;
+  cursor: pointer;
+  padding: 9px 34px 15px 0px;
+}
+#gedunean-giversaryd span,
+#gedunean-giversaryd span:before,
+#gedunean-giversaryd span:after {
+  cursor: pointer;
+  border-radius: 1px;
+  height: 5px;
+  width: 35px;
+  background: #fbfbfb;
+  position: absolute;
+  display: block;
+  content: '';
+  transition: all 300ms ease-in-out;
+}
+#gedunean-giversaryd span:before {
+  top: -10px;
+}
+#gedunean-giversaryd span:after {
+  bottom: -10px;
+}
+#gedunean-giversaryd.desamuvsnis span {
+  background-color: transparent;
+}
+#gedunean-giversaryd.desamuvsnis span:before, #gedunean-giversaryd.desamuvsnis span:after {
+  top: 0;
+}
+#gedunean-giversaryd.desamuvsnis span:before {
+  transform: rotate(45deg);
+}
+#gedunean-giversaryd.desamuvsnis span:after {
+  transform: rotate(-45deg);
+}
